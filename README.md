@@ -40,7 +40,7 @@ $ cd java-spring-boot-rest-api-demo
 $ ./mvnw install
 $ heroku local:start
 ```
-App将会运行于http://localhost:5000。如果还需要使用数据库的话，确保当前目录有.env文件且包含JDBC链接，示例如下：
+App将会运行于http://localhost:5000。 如果还需要使用数据库的话，确保当前目录有.env文件且包含JDBC链接，示例如下：
 ```
 JDBC_DATABASE_URL=jdbc:postgresql://localhost:5432/java_database_name
 ```
