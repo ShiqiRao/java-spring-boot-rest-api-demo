@@ -37,7 +37,7 @@ Maven
 ```
 $ git clone git@github.com:nockyQ/java-spring-boot-rest-api-demo.git
 $ cd java-spring-boot-rest-api-demo
-$ mvn install
+$ ./mvnw install
 $ heroku local:start
 ```
 App将会运行于http://localhost:5000。如果还需要使用数据库的话，确保当前目录有.env文件且包含JDBC链接，示例如下：
